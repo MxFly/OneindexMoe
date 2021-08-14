@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
 	<title><?php e($title.' - '.config('site_name'));?></title>
-	<meta name="keywords" content="佰阅部落baiyue.one">
+	<meta name="keywords" content="欧阳紫菲的下载站">
 	<meta name="author" content="佰阅部落baiyue.one">
 	<link rel="shortcut icon" href="./view/nexmoe/favicon.ico" type="image/x-icon" />	
 	<link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.1/css/mdui.css">
@@ -17,7 +17,7 @@
 <body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
 	<header class="nav">
 		<div class="navSize">
-			<a href="/"><img class="avatar" src="//q.qlogo.cn/g?b=qq&nk=2894049053&s=100"/></a>
+			<a href="/"><img class="avatar" <img src = 'https://s3.bmp.ovh/imgs/2021/08/bc376482863b77a3.png' /></a>
 			<div class="navRight">
 				<ul class="navul">
                     <li class="navli"><a style="color: black" href="/"><b><i class="mdui-icon material-icons">cloud_queue</i> 首页</b></a></li>
