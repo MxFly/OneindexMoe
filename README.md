@@ -13,7 +13,13 @@ Onedrive Directory Index mod
 ## 安装运行
 
 ```
-docker run -d -p 8181:80 --restart=always baiyuetribe/oneindex
+#创建临时容器：
+docker run -itd --name=tmp baiyuetribe/oneindex
+#拷贝容器内文件到宿主机目录：
+docker cp tmp:/var/www/html /opt/oneindex
+docker rm -f tmp
+#正式启动服务：
+docker run -d -p 8181:80 -v /opt/oneindex:/var/www/html --restart=always baiyuetribe/oneindex
 ```
 
 ## 特殊文件实现功能  
