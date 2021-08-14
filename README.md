@@ -24,9 +24,7 @@ docker run -d -p 8181:80 -v /opt/oneindex:/var/www/html --restart=always baiyuet
 
 ## 特殊文件实现功能  
 ` README.md `、`HEAD.md` 、 `.password`特殊文件使用  
-
-可以参考[https://github.com/donwa/oneindex/tree/files](https://github.com/donwa/oneindex/tree/files)  
-
+  
 **在文件夹底部添加说明:**  
 >在 OneDrive 的文件夹中添加` README.md `文件，使用 Markdown 语法。  
 
